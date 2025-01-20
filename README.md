@@ -30,15 +30,7 @@ Ensure the following tools are installed on your machine:
    yarn install
    ```
 
-3. **Environment Configuration**
-   Create a `.env` file in the root of your frontend project. Add the following variables:
-   ```env
-   REACT_APP_BACKEND_URL=http://localhost:3000/api
-   REACT_APP_GRPC_URL=localhost:50051
-   ```
-   Update the URLs as per your backend configuration.
-
-4. **Start the Development Server**
+3. **Start the Development Server**
    Run the following command to start the frontend:
    ```bash
    npm start
@@ -47,7 +39,7 @@ Ensure the following tools are installed on your machine:
    ```
    The application will be available at `http://localhost:3000`.
 
-5. **Build for Production**
+4. **Build for Production**
    To create an optimized build for deployment:
    ```bash
    npm run build
