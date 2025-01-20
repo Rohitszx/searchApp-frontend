@@ -3,7 +3,7 @@ import axios from 'axios';
 const searchQuestions = async ({ query, type, page, limit }) => {
   try {
     console.log('query:', query, 'type:', type, 'page:', page, 'limit:', limit);
-    const response = await axios.post('http://localhost:3000/api/search', {
+    const response = await axios.post('https://searchapp-backend.onrender.com/api/search', {
       query,
       type,
       page,
